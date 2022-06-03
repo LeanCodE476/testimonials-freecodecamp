@@ -37,3 +37,24 @@ font-weight: 600;
     font-size: 1.3rem;
 text-align: justify;
 }
+
+@media screen and (max-width: 90rem) {
+  
+    .contenedor-testimonio {
+            flex-direction: column;
+            width: 70%;  
+            height: auto;
+            padding-bottom: 2rem;
+        }
+    
+        .contenedor-testimonio img {
+            height: 20rem;
+            width: 100%;
+        }
+    
+        .contenedor-textos {
+            text-align: center;
+        }
+    
+     
+}
